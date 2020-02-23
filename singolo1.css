@@ -107,14 +107,16 @@ span {
 .arrow_left {
     position: relative;
 	top: 281px;
-	left: 2px;
+    left: 2px;
+    cursor: pointer;
 }
 
 
 .arrow_right {
     position: relative;
 	top: -918px;
-	right: -924px;
+    right: -924px;
+    cursor: pointer;
 }
 
 
