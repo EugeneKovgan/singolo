@@ -143,7 +143,7 @@ span {
 .services_1 {
     display: flex;
 	justify-content: space-between;
-	padding-top: 25px; 
+	padding-top: 27px; 
     margin-top: 11px;
     
 }
@@ -151,7 +151,7 @@ span {
 .services_2 {
     display: flex;
 	justify-content: space-between;
-	padding-top: 25px; 
+	padding-top: 22px; 
     margin-top: -35px;
 
     
@@ -160,6 +160,7 @@ span {
     width: 32%;
 	height: 20%;
     margin-bottom: 31px;
+    font-family: "Lato Black";
          
 }
 
@@ -173,11 +174,12 @@ span {
 
 h2 {
     font-size: 30px;
+    font-family: "Lato Black";
     
 }
 
  h3 {
-    padding-top: 24px;
+    padding-top: 20px;
     font-size: 18px;
     font-family: "Lato Light";
     padding-bottom: 8px;
