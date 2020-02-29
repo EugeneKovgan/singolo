@@ -14,7 +14,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Container */
 
 .container {
-    width: 940px; 
+    display: flex;
+    width: 940px;
     margin: auto;
 }
 
@@ -28,9 +29,8 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
-.header_1 {
+.header_logo {
     display:flex; 
-    justify-content: space-between;
     font-family: "Lato-Bold";
      
 }
@@ -54,7 +54,9 @@ span {
     width: 370px;    
     padding-top: 32px;
     letter-spacing: -0.2px;
-    justify-content: space-between;    
+    justify-content: space-between;  
+    padding-left: 452px;
+    
     
 }
 
@@ -62,20 +64,19 @@ span {
     color: #ffffff;
     text-decoration: none;
     font-size: 12px;
+   
     
     
            
 }
 
 .span_nav {
-
     color: #424657;
     padding-left: 14px;
     padding-top: 15px;
 }
 
-.activ {
-
+.active {
     color: #f06c64;
 }
 
@@ -96,8 +97,7 @@ span {
 }
 
 
-.tel_vert {
-   
+.tel_vert {   
     position: relative;
 	top: -48px;
 	left: 70px;
@@ -127,63 +127,49 @@ span {
     height: 494px;
     border-bottom: 6px #ffffff;
     color:#666d89;
-    
-        
+            
 }
 
-.section_1 {      
-    padding-top: 60px;
-    font-size: 18px;
-    max-width: 940px;
+.section_head {     
+  padding-top: 59px;
     
 }
 
-    
-
-.services_1 {
+.services {
     display: flex;
+    flex-wrap: wrap;
+    width: 940px;
 	justify-content: space-between;
-	padding-top: 27px; 
-    margin-top: 11px;
+    padding-top: 19px; 
+    
+    
     
 }
-
-.services_2 {
-    display: flex;
-	justify-content: space-between;
-	padding-top: 22px; 
-    margin-top: -35px;
-
-    
+   
+.services_items {         
+    width: 300px; 
+    height: 123px;
+             
 }
-.services_items {    
-    width: 32%;
-	height: 20%;
-    margin-bottom: 31px;
-    font-family: "Lato Black";
-         
-}
-
 
 .icons {    
     float: left;
-	margin-right: 18px;
+	margin-right: 19px;
    
 }
 
-
-h2 {
+.section-title {
     font-size: 30px;
     font-family: "Lato Black";
     
 }
 
- h3 {
+.section-title_description {
     padding-top: 20px;
     font-size: 18px;
     font-family: "Lato Light";
     padding-bottom: 8px;
-    line-height: 27px; 
+    line-height: 29px; 
     letter-spacing: -0.15px; 
         
 
@@ -191,17 +177,22 @@ h2 {
 
 h4 {
     font-size: 18px;
+    font-family: "Lato Black";
+    position: relative;
+    margin-top: -2px;
 }
 
 
-p {
+.services_item_info {
     font-family: "Lato Regular";
+    position: relative;
+    margin-top: 10px;
     font-size: 12px;
     line-height: 20px;
     margin-left: 80px;
+    letter-spacing: -0.15px;
 
 } 
-
 
 
  /* fonts  */

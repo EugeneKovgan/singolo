@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    max-width: 1020px;
+
+}
+
+/* Header */
+
+
+.portfolio {
+    background-color: #2d303a;
+    height: 864px;  
+    border-bottom:solid 6px #323746;
+   
+    
+}
+
+.container {
+    max-width: 940px;
+    display: flex;
+    margin: auto;
+    
+}
+
+.portfolio_header {
+
+    padding-left: 40px;
+    
+}
+
+.logo_singolo2 {
+    font-size: 30px;
+    font-family: "Lato Black";
+    color: #666d89;    
+    position: absolute;
+    top: 59px;
+
+}
+
+.logo_inf {
+
+    font-size: 18px;
+    font-family: "Lato Light";
+    color: #767e9e;
+    position: absolute;
+    top: 118px;
+}
+
+.head_nav {
+
+    display: flex ;
+    width: 278px;
+    font-size: 12px;
+    font-family: "Lato Regular";
+    justify-content: space-between;
+    list-style: none;
+    position: absolute;
+    top: 155px;
+    
+    
+    
+       
+}
+
+.li_butt {
+
+    font-size: 12px;
+    line-height: 8px;
+    color: #767e9e;
+    padding: 6px;
+    border: 1px solid #666d89;
+    border-radius: 4px;
+    
+     
+}
+
+.active {
+
+    color: #c5c5c5;
+} 
+
+
+.portfolio_img {
+
+    display: grid; 
+    grid-template: repeat(3, 187px) / repeat(4, 220px);   
+    grid-gap: 20px;
+    position: relative;
+    padding-top: 88px;
+    max-height: 700px;
+    overflow: hidden;
+     
+    
+}
+
+.about_us {
+    background-color: #f2f2f2;
+    height: 729px;  
+    border-bottom:solid 6px #ffffff;
+    
+}
+
+.about_title {
+    font-size: 30px;
+    font-family: "Lato Black";
+    color: #666d89;
+    
+}
+
+.about_info {
+    font-size: 18px;
+    font-family: "Lato Light";
+    padding-top: 16px;
+    line-height: 29px;
+    color: #767e9e;
+
+}
+
+.about_us_description {
+   padding-left: 40px;
+   padding-top: 61px;
+   
+
+}
+
+.about_us_container {
+    display:flex ;
+    padding-top: 48px;
+    
+    
+}
+
+.about_us_items {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    padding-right: 20px ;
+    max-height: 450px;
+    
+
+}
+
+.about_us_items_title {
+    font-size: 18px;
+    font-family: "Lato Black";
+    padding-top: 15px;
+    color: #666d89;
+
+
+}
+
+
+.about_us_items_info {
+    font-size: 12px;
+    font-family: "Lato Regular";
+    padding-top: 12px;
+    line-height: 19px;
+    color: #767e9e;
+
+
+}
+
+.about_us_icons {
+    display: flex;
+    padding-top: 26px;
+    
+
+}
+
+.icon_soc {
+    float: left;
+    margin-right: 10px;    
+    width: 30px;
+    height: 30px;  
+    
+}
+
+ /* fonts  */
+
+
+ @font-face {
+    font-family: "Lato Light";
+    src: url("assets/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url("assets/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato Bold";
+    src: url("assets/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato Black";
+    src: url("assets/Lato-Black.ttf");
+}
