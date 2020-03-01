@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0px auto;
     padding: 0px;
     max-width: 1020px;
@@ -76,7 +76,7 @@ span {
     padding-top: 15px;
 }
 
-.active {
+.active_s1 {
     color: #f06c64;
 }
 

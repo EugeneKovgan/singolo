@@ -16,8 +16,7 @@ body {
     background-color: #2d303a;
     height: 864px;  
     border-bottom:solid 6px #323746;
-   
-    
+     
 }
 
 .container {
@@ -39,62 +38,61 @@ body {
     color: #666d89;    
     position: absolute;
     top: 59px;
+    letter-spacing: 0.3px;
 
 }
 
 .logo_inf {
-
     font-size: 18px;
     font-family: "Lato Light";
     color: #767e9e;
     position: absolute;
     top: 118px;
+    letter-spacing: -0.1px;
 }
 
 .head_nav {
-
     display: flex ;
-    width: 278px;
+    width: 289px;
     font-size: 12px;
     font-family: "Lato Regular";
     justify-content: space-between;
     list-style: none;
     position: absolute;
     top: 155px;
-    
-    
-    
        
 }
 
 .li_butt {
-
     font-size: 12px;
     line-height: 8px;
     color: #767e9e;
     padding: 6px;
     border: 1px solid #666d89;
     border-radius: 4px;
-    
-     
+    background-color: transparent;
+    cursor: pointer;
+       
 }
 
-.active {
+.active_nav {
+    font-size: 12px;
+    line-height: 8px;
+    color: #dedede;
+    padding: 6px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
 
-    color: #c5c5c5;
-} 
-
+}
 
 .portfolio_img {
-
     display: grid; 
     grid-template: repeat(3, 187px) / repeat(4, 220px);   
     grid-gap: 20px;
     position: relative;
-    padding-top: 88px;
+    padding-top: 89px;
     max-height: 700px;
     overflow: hidden;
-     
     
 }
 
@@ -116,21 +114,21 @@ body {
     font-size: 18px;
     font-family: "Lato Light";
     padding-top: 16px;
-    line-height: 29px;
+    line-height: 31px;
     color: #767e9e;
 
 }
 
 .about_us_description {
    padding-left: 40px;
-   padding-top: 61px;
+   padding-top: 60px;
    
 
 }
 
 .about_us_container {
-    display:flex ;
-    padding-top: 48px;
+    display:flex;
+    padding-top: 44px;
     
     
 }
@@ -141,16 +139,16 @@ body {
     flex-direction: column;
     padding-right: 20px ;
     max-height: 450px;
-    
-
 }
 
 .about_us_items_title {
-    font-size: 18px;
+    font-size: 17px;
     font-family: "Lato Black";
     padding-top: 15px;
     color: #666d89;
-
+    overflow: hidden;
+    text-overflow: clip;
+    letter-spacing: 0.5px;
 
 }
 
@@ -162,13 +160,11 @@ body {
     line-height: 19px;
     color: #767e9e;
 
-
 }
 
 .about_us_icons {
     display: flex;
     padding-top: 26px;
-    
 
 }
 
@@ -178,6 +174,10 @@ body {
     width: 30px;
     height: 30px;  
     
+}
+
+.icon_soc img:hover {
+    cursor: pointer;
 }
 
  /* fonts  */
