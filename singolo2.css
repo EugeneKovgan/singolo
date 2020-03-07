@@ -146,12 +146,14 @@ body {
 .about_us_items_title {
     font-size: 17px;
     font-family: "Lato Black";
-    padding-top: 15px;
+    padding-top: 15px;    
     color: #666d89;
+    text-overflow: ellipsis;
     overflow: hidden;
-    text-overflow: clip;
+    white-space: nowrap;
     letter-spacing: 0.5px;
     margin-left: 0px;
+    max-width: 300px;
 
 }
 
