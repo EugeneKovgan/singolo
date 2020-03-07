@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     
 }
@@ -20,13 +20,14 @@ body {
 .quote {
 
     background-color: #f06c64;
-    height: 649px;
+    height: 648px;
     border-bottom:solid 6px #ea676b;
 }
 
 .quote_head {
    padding-left: 40px;
-   padding-top: 60px;
+   padding-top: 59px;
+   letter-spacing: -0.1px;
 
 }
 .quote_logo {
@@ -42,19 +43,21 @@ body {
     font-family: "Lato Light";
     color: #f0d8d9;
     line-height: 29px;
+    
 }
 
 .input_information_form {
     display: flex;
-    align-items: flex-start;
     justify-content: left;
-    flex-direction: column;
-   
-
+    flex-direction: row;  
     width: 620px;
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-bottom: 15px; 
+    justify-content: space-between;
 }
 
-.input_information {    
+.input_information {   
     padding: 12px 15px;
     box-sizing: border-box;
     border: none;
@@ -63,10 +66,74 @@ body {
     width: 620px;
     font-family: "Lato Regular";
     font-size: 12px;
+    color: #f48c8f;
+    margin-bottom: 15px;
     
+}
+
+textarea {
+   
+    max-height: 202px;
 
 }
 
+::placeholder {
+
+    color: #f48c8f;
+}
+
+
+.submit {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+
+
+}    
+
+
+.form_contact_info {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #f0d8d9;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    text-align: justify;
+    hyphens: manual;
+    margin-top: -2px;
+    margin-left: 20px;
+    min-width: 300px;
+    height: 80px;
+    
+}
+
+.form_contact_description {
+
+    margin-top: 9px;
+    font-size: 12px;
+    font-family: "Lato Regular";
+}
+
+.email_phone {
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: "Lato Regular";
+     
+
+}
+
+.contact-text{
+
+    text-decoration: none;
+    color: #f0d8d9;
+    font-size: 12px;
+    font-family: "Lato Regular";
+}
+
+.contact-information_png {
+
+    padding-right: 13px;
+}
 
 
 .about_us_icons {
@@ -92,6 +159,38 @@ footer {
     background-color:#2d303a;
     height: 76px;
 } 
+
+h5 {
+    font-family: "Lato Black";
+    font-size: 18px;
+    letter-spacing: 0.15px;
+
+}
+.footer_logo {
+   
+    font-size: 12px;
+    font-family: "Lato Regular";
+    color: #5b6179;
+    margin-top: -28px;
+    padding-left: 39px;
+
+}
+
+.footer_contacts {
+    
+    padding-left: 822px;
+    padding-top: 21px;
+       
+}
+
+.soc_img {
+
+    left: auto;
+    margin-left: 5px;
+    
+}
+
+
 
  /* fonts  */
 

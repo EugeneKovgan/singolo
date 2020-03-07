@@ -13,24 +13,49 @@
             <div class="quote_head"><div class="quote_logo">Get a Quote</div>
             <div class="quote_description">Fusce dapibus, tellus ac cursus commodo,
                  tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat
-                  porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus
+                  porttitor <br> ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus
                    ac cursus commodo, tortor mauris condimentum nibh.</div>
                 </div>
         </container>
-        <container>
-            <div class="input_information_form">
-                
-                <input class="input_information" type="text" name="name" placeholder="Name (Required)" required>
-                <input class="input_information" type="email" name="email" placeholder="Email (Required)" required>
-                <input class="input_information" type="text" name="subject" placeholder="Subject">
-                <textarea class="input_information" name="message" placeholder="Describe your project in detail..." cols="30" rows="13"></textarea>
-                <button class="input_information" type="submit" formmethod="POST">Submit</button>
+            <container>
+
+            <div class="input_information_form"> 
+               
+                <form class="form" action="form" method="post">
+                    <input class="input_information" type="text" name="name" placeholder="Name (Required)" required>
+                    <input class="input_information" type="email" name="email" placeholder="Email (Required)" required>
+                    <input class="input_information" type="text" name="subject" placeholder="Subject">
+                    <textarea class="input_information" name="message" placeholder="Describe your project in detail..." cols="30" rows="13"></textarea>
+                    <button class="input_information submit" type="submit" formmethod="POST">Submit</button>
+                 </form>
+                 <div class="form_contact_info">
+                     <h5>Contact Information</h5>
+                    <p class="form_contact_description">Quisque hendrerit purus dapibus, ornare nibh vitae, viver&shy;ra nibh. Fusce vitae aliquam
+                         tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. 
+                         Morbi at aliquet turpis, et consequat felis.  </p>
+                         <div class="email_phone">
+                                <p class="contact-text"><img class="contact-information_png" src="assets/location.png"> Elm St. 14/05 Lost City</p> 
+                                <a class="contact-text" href="tel:035283318635"> <img class="contact-information_png" src="assets/phone_mini.png">03528 331 86 35</a> <br>
+                                <a class="contact-text" href="mailto:info@singolo.com"> <img  class="contact-information_png"src="assets/mail.png">info@singolo.com</a> <br>
+                         </div>
+                        </div>
+                </div>
 
             </div>
         </container>
         
     </div>
     <footer>
+        <container>            
+            <div class="footer_contacts">
+                <a href="#"><img class="soc_img" src="assets/facebook.png"></a>
+                <a href="#"><img class="soc_img" src="assets/google+.png"></a>
+                <a href="#"><img class="soc_img" src="assets/twitter.png"></a>
+                <a href="#"><img class="soc_img" src="assets/linkedin.png"></a>
+
+            </div>
+            <p class="footer_logo">© Copyright 2013</p>
+        </container>
             
     </footer>
 </body>
