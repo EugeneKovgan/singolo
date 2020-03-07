@@ -1,0 +1,546 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 1020px;
+        
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+    display: flex;
+    width: 940px;
+    margin: auto;
+}
+
+
+.header {
+    height: 89px;
+    background-color: #2d303a;
+    border-bottom: solid 6px #323746;
+    text-transform:uppercase;
+    
+}
+
+.header_logo {
+    display:flex; 
+    font-family: "Lato-Bold";
+     
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 25px;
+    padding-top: 32px;
+    letter-spacing: -1.5px;
+}
+
+span {
+    color: #f06c64;
+    font-size: 25px;
+}
+
+
+.nav {    
+    display: flex;
+    width: 370px;    
+    padding-top: 32px;
+    letter-spacing: -0.2px;
+    justify-content: space-between;  
+    padding-left: 452px;
+    
+    
+}
+
+.nav_link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+   
+    
+    
+           
+}
+
+.span_nav {
+    color: #424657;
+    padding-left: 14px;
+    padding-top: 15px;
+}
+
+.active_s1 {
+    color: #f06c64;
+}
+
+
+
+.slider {
+    background-color: #f06c64;
+    height: 594px;
+    border-bottom: solid 6px #ea676b;
+}
+
+
+.tel_hor {
+    position: relative;
+	top: -546px;
+	right: -320px;   
+}
+
+
+.tel_vert {   
+    position: relative;
+	top: -48px;
+	left: 70px;
+}
+    
+
+.arrow_left {
+    position: relative;
+	top: 281px;
+    left: 2px;
+    cursor: pointer;
+}
+
+
+.arrow_right {
+    position: relative;
+	top: -918px;
+    right: -924px;
+    cursor: pointer;
+}
+
+
+.section {  
+    background-color:#f2f2f2 ;
+    height: 494px;
+    border-bottom: solid 6px #ffffff;
+    color:#666d89;            
+}
+
+.section_head {     
+  padding-top: 59px;    
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 958px;
+	justify-content: space-between;
+    padding-top: 19px;   
+    
+}
+   
+.services_items {         
+    width: 33%; 
+    height: 123px;
+    margin-left: 0px;
+             
+}
+
+.icons {    
+    float: left;
+	margin-right: 19px;
+   
+}
+
+.section-title {
+    font-size: 30px;
+    font-family: "Lato Black";
+    
+}
+
+.section-title_description {
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: "Lato Light";
+    padding-bottom: 8px;
+    line-height: 29px; 
+    letter-spacing: -0.15px; 
+        
+}
+
+h4 {
+    font-size: 18px;
+    font-family: "Lato Black";
+    position: relative;
+    margin-top: -2px;
+}
+
+
+.services_item_info {
+    font-family: "Lato Regular";
+    position: relative;
+    margin-top: 9px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 80px;
+    letter-spacing: -0.15px;
+    width: 230px;
+
+} 
+
+
+body {
+    max-width: 1020px;
+
+}
+
+
+
+.portfolio {
+    background-color: #2d303a;
+    height: 864px;  
+    border-bottom:solid 6px #323746;  
+     
+}
+
+
+.portfolio_header {
+    padding-left: 40px;
+    
+}
+
+.logo_singolo2 {
+    font-size: 30px;
+    font-family: "Lato Black";
+    color: #666d89;    
+    padding-top: 60px;
+    letter-spacing: 0.3px;
+
+}
+
+.logo_inf {
+    font-size: 18px;
+    font-family: "Lato Light";
+    color: #767e9e;
+    padding-top: 4px;
+    letter-spacing: -0.1px;
+}
+
+.head_nav {
+    display: flex ;
+    width: 295px;
+    font-size: 12px;
+    font-family: "Lato Regular";
+    justify-content: space-between;
+    list-style: none;    
+    padding-top: 15px;
+    margin-left: -3px;
+       
+}
+
+.li_butt {
+    font-size: 12px;
+    line-height: 8px;
+    color: #767e9e;
+    padding: 6px;
+    border: 1px solid #666d89;
+    border-radius: 4px;
+    background-color: transparent;    
+           
+}
+
+.li_butt:hover {
+    cursor: pointer;
+}
+
+.active_nav {
+    font-size: 12px;
+    line-height: 8px;
+    color: #dedede;
+    padding: 6px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+
+}
+
+.portfolio_img {
+    display: grid; 
+    grid-template: repeat(3, 187px) / repeat(4, 220px);   
+    grid-gap: 20px;
+    position: relative;
+    padding-top: 10px;
+    max-height: 620px;
+    overflow: hidden;
+    
+}
+
+.about_us {
+    background-color: #f2f2f2;
+    height: 727px;  
+    border-bottom:solid 6px #ffffff;
+    
+}
+
+.about_title {
+    font-size: 30px;
+    font-family: "Lato Black";
+    color: #666d89;
+    
+}
+
+.about_info {
+    font-size: 18px;
+    font-family: "Lato Light";
+    padding-top: 16px;
+    line-height: 31px;
+    color: #767e9e;
+
+}
+
+.about_us_description {
+   padding-left: 40px;
+   padding-top: 60px;
+   
+
+}
+
+.about_us_container {
+    display:flex;
+    padding-top: 44px;
+    
+    
+}
+
+.about_us_items {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    padding-right: 20px ;
+    max-height: 450px;
+}
+
+.about_us_items_title {
+    font-size: 17px;
+    font-family: "Lato Black";
+    padding-top: 15px;
+    color: #666d89;
+    overflow: hidden;
+    text-overflow: clip;
+    letter-spacing: 0.5px;
+    margin-left: 0px;
+
+}
+
+
+.about_us_items_info {
+    font-size: 12px;
+    font-family: "Lato Regular";
+    padding-top: 10px;
+    line-height: 19px;
+    color: #767e9e;
+
+}
+
+.about_us_icons {
+    display: flex;
+    padding-top: 26px;
+    margin-left: 1px;
+
+}
+
+.icon_soc {
+    float: left;
+    margin-right: 10px;    
+    width: 30px;
+    height: 30px;  
+    
+}
+
+.icon_soc img:hover {
+    cursor: pointer;
+}
+
+
+.quote {
+    background-color: #f06c64;
+    height: 648px;
+    border-bottom:solid 6px #ea676b;
+}
+
+.quote_head {
+   padding-left: 40px;
+   padding-top: 59px;
+   letter-spacing: -0.1px;
+
+}
+.quote_logo {
+    font-size: 30px;
+    font-family:"Lato Black" ;
+    color: #f0d8d9;
+
+}
+
+.quote_description {
+    padding-top: 19px;
+    font-size: 18px;
+    font-family: "Lato Light";
+    color: #f0d8d9;
+    line-height: 29px;
+    
+}
+
+.input_information_form {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;  
+    width: 620px;
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-bottom: 15px; 
+    justify-content: space-between;
+}
+
+.input_information {   
+    padding: 12px 15px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6564f;   
+    width: 620px;
+    font-family: "Lato Regular";
+    font-size: 12px;
+    color: #f48c8f;
+    margin-bottom: 15px;
+    
+}
+
+textarea {   
+    max-height: 202px;
+
+}
+
+::placeholder {
+    color: #f48c8f;
+}
+
+
+.submit {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+
+
+}    
+
+
+.form_contact_info {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #f0d8d9;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    text-align: justify;
+    hyphens: manual;
+    margin-top: -2px;
+    margin-left: 20px;
+    min-width: 300px;
+    height: 80px;
+    
+}
+
+.form_contact_description {
+    margin-top: 9px;
+    font-size: 12px;
+    font-family: "Lato Regular";
+}
+
+.email_phone {
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: "Lato Regular";
+     
+
+}
+
+.contact-text{
+    text-decoration: none;
+    color: #f0d8d9;
+    font-size: 12px;
+    font-family: "Lato Regular";
+}
+
+.contact-information_png {
+    padding-right: 13px;
+}
+
+
+.about_us_icons {
+    display: flex;
+    padding-top: 26px;
+
+}
+
+.icon_soc {
+    float: left;
+    margin-right: 10px;    
+    width: 30px;
+    height: 30px;  
+    
+}
+
+.icon_soc img:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color:#2d303a;
+    height: 76px;
+} 
+
+h5 {
+    font-family: "Lato Black";
+    font-size: 18px;
+    letter-spacing: 0.15px;
+
+}
+.footer_logo {   
+    font-size: 12px;
+    font-family: "Lato Regular";
+    color: #5b6179;
+    margin-top: -28px;
+    padding-left: 39px;
+
+}
+
+.footer_contacts {
+    padding-left: 822px;
+    padding-top: 21px;
+       
+}
+
+.soc_img {
+    left: auto;
+    margin-left: 5px;
+    
+}
+
+
+
+ /* fonts  */
+
+
+ @font-face {
+    font-family: "Lato Light";
+    src: url("assets/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url("assets/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato Bold";
+    src: url("assets/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato Black";
+    src: url("assets/Lato-Black.ttf");
+} 

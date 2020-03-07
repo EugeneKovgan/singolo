@@ -138,7 +138,7 @@ span {
 .services {
     display: flex;
     flex-wrap: wrap;
-    width: 940px;
+    width: 958px;
 	justify-content: space-between;
     padding-top: 19px; 
     
@@ -147,8 +147,10 @@ span {
 }
    
 .services_items {         
-    width: 300px; 
+    width: 33%; 
     height: 123px;
+    max-width: 300px;
+    margin-left: 0px;
              
 }
 
