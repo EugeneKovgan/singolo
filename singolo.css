@@ -131,7 +131,7 @@ span {
     flex-wrap: wrap;
     width: 958px;
 	justify-content: space-between;
-    padding-top: 19px;   
+    padding-top: 20px;   
     
 }
    
@@ -194,7 +194,7 @@ body {
 
 .portfolio {
     background-color: #2d303a;
-    height: 864px;  
+    height: 863px;  
     border-bottom:solid 6px #323746;  
      
 }
@@ -264,7 +264,7 @@ body {
     grid-template: repeat(3, 187px) / repeat(4, 220px);   
     grid-gap: 20px;
     position: relative;
-    padding-top: 9px;
+    padding-top: 18px;
     max-height: 620px;
     overflow: hidden;
     
@@ -272,7 +272,7 @@ body {
 
 .about_us {
     background-color: #f2f2f2;
-    height: 727px;  
+    height: 728px;  
     border-bottom:solid 6px #ffffff;
     
 }
@@ -295,14 +295,14 @@ body {
 
 .about_us_description {
    padding-left: 40px;
-   padding-top: 60px;
+   padding-top: 59px;
    
 
 }
 
 .about_us_container {
     display:flex;
-    padding-top: 44px;
+    padding-top: 45px;
     
     
 }
@@ -334,15 +334,15 @@ body {
     font-size: 12px;
     font-family: "Lato Regular";
     padding-top: 10px;
-    line-height: 19px;
+    line-height: 20px;
     color: #767e9e;
 
 }
 
 .about_us_icons {
     display: flex;
-    padding-top: 26px;
-    margin-left: 1px;
+    padding-top: 25px;
+    margin-left: 0px;
 
 }
 
@@ -404,7 +404,7 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #d6564f;   
-    width: 620px;
+    width: 619px;
     font-family: "Lato Regular";
     font-size: 12px;
     color: #f48c8f;
@@ -440,7 +440,7 @@ textarea {
     text-align: justify;
     hyphens: manual;
     margin-top: -2px;
-    margin-left: 20px;
+    margin-left: 21.5px;
     min-width: 300px;
     height: 80px;
     
@@ -453,8 +453,13 @@ textarea {
 }
 
 .email_phone {
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    margin-left: -157px;
+    margin-top: 19px;
     font-size: 12px;
+
     font-family: "Lato Regular";
      
 
@@ -467,16 +472,25 @@ textarea {
     font-family: "Lato Regular";
 }
 
-.contact-information_png {
+.contact-information_loc {
     padding-right: 13px;
+    padding-left: 3px;
+    
+    
 }
 
-
-.about_us_icons {
-    display: flex;
-    padding-top: 26px;
-
+.contact-information_tel {
+    padding-right: 11px;
+    margin-left: -27px;
+    
 }
+
+.contact-information_mail {
+    padding-right: 10px;
+    margin-left: -28px;
+    
+}
+
 
 .icon_soc {
     float: left;
@@ -505,14 +519,14 @@ h5 {
     font-size: 12px;
     font-family: "Lato Regular";
     color: #5b6179;
-    margin-top: -28px;
-    padding-left: 39px;
+    margin-top: -27px;
+    padding-left: 41px;
 
 }
 
 .footer_contacts {
     padding-left: 822px;
-    padding-top: 21px;
+    padding-top: 22px;
        
 }
 
