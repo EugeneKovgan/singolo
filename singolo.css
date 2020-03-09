@@ -51,8 +51,7 @@ span {
     padding-top: 32px;
     letter-spacing: -0.2px;
     justify-content: space-between;  
-    padding-left: 452px;
-    
+    padding-left: 452px;    
     
 }
 
@@ -60,10 +59,12 @@ span {
     color: #ffffff;
     text-decoration: none;
     font-size: 12px;
-   
-    
-    
            
+}
+
+.nav_link:hover {
+
+    color:#f06c64;
 }
 
 .span_nav {
@@ -112,6 +113,11 @@ span {
 	top: -918px;
     right: -924px;
     cursor: pointer;
+}
+
+.arrow_right:hover, 
+.arrow_left:hover {
+    background-color:#c5c5c5;
 }
 
 
@@ -224,12 +230,12 @@ body {
 
 .head_nav {
     display: flex ;
-    width: 295px;
+    width: 294px;
     font-size: 12px;
     font-family: "Lato Regular";
     justify-content: space-between;
     list-style: none;    
-    padding-top: 15px;
+    padding-top: 14px;
     margin-left: -3px;
        
 }
@@ -247,6 +253,7 @@ body {
 
 .li_butt:hover {
     cursor: pointer;
+    color:#c5c5c5;
 }
 
 .active_nav {
@@ -264,7 +271,7 @@ body {
     grid-template: repeat(3, 187px) / repeat(4, 220px);   
     grid-gap: 20px;
     position: relative;
-    padding-top: 18px;
+    padding-top: 19px;
     max-height: 620px;
     overflow: hidden;
     
@@ -354,10 +361,6 @@ body {
     
 }
 
-.icon_soc img:hover {
-    cursor: pointer;
-}
-
 
 .quote {
     background-color: #f06c64;
@@ -412,6 +415,16 @@ body {
     
 }
 
+.input_information:hover {
+    background-color:#c5c5c5;
+}
+
+
+.submit:hover {
+  background-color:#c5c5c5;
+}
+
+
 textarea {   
     max-height: 202px;
 
@@ -421,12 +434,10 @@ textarea {
     color: #f48c8f;
 }
 
-
 .submit {
     width: 80px;
     height: 40px;
     cursor: pointer;
-
 
 }    
 
@@ -459,11 +470,14 @@ textarea {
     margin-left: -157px;
     margin-top: 19px;
     font-size: 12px;
-
-    font-family: "Lato Regular";
-     
+    font-family: "Lato Regular";     
 
 }
+
+.contact-text:hover {
+    color:#c5c5c5;
+}
+
 
 .contact-text{
     text-decoration: none;
@@ -474,8 +488,7 @@ textarea {
 
 .contact-information_loc {
     padding-right: 13px;
-    padding-left: 3px;
-    
+    padding-left: 3px; 
     
 }
 
@@ -491,20 +504,15 @@ textarea {
     
 }
 
-
-.icon_soc {
-    float: left;
-    margin-right: 10px;    
-    width: 30px;
-    height: 30px;  
-    
-}
-
-.icon_soc img:hover {
+.icon_soc:hover
+ {
     cursor: pointer;
+    background-color:#c5c5c5;
 }
 
 footer {
+    position: absolute;
+    width: 1020px;
     background-color:#2d303a;
     height: 76px;
 } 
@@ -519,23 +527,16 @@ h5 {
     font-size: 12px;
     font-family: "Lato Regular";
     color: #5b6179;
-    margin-top: -27px;
-    padding-left: 41px;
+    margin-top: 30px;
+    padding-left: 40px;
 
 }
 
 .footer_contacts {
-    padding-left: 822px;
-    padding-top: 22px;
+    padding-left: 828px;
+    margin-top: -23px;
        
 }
-
-.soc_img {
-    left: auto;
-    margin-left: 5px;
-    
-}
-
 
 
  /* fonts  */

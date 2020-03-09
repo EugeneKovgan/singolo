@@ -173,7 +173,7 @@
                 <input class="input_information" type="text" name="name" placeholder="Name (Required)" required>
                 <input class="input_information" type="email" name="email" placeholder="Email (Required)" required>
                 <input class="input_information" type="text" name="subject" placeholder="Subject">
-                <textarea class="input_information" name="message" placeholder="Describe your project in detail..." cols="30" rows="13"></textarea>
+                <textarea class="input_information" name="message" placeholder="Describe your project in detail..." style="resize: none;" cols="30" rows="13"></textarea>
                 <button class="input_information submit" type="submit" formmethod="POST">Submit</button>
              </form>
              <div class="form_contact_info">
@@ -182,7 +182,7 @@
                      tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. 
                      Morbi at aliquet turpis, et consequat felis.  </p>
                      <div class="email_phone">
-                            <p class="contact-text"><img class="contact-information_loc" src="assets/location.png">Elm St. 14/05 Lost City</p> 
+                            <a class="contact-text" href="Elm St. 14/05 Lost City"><img class="contact-information_loc" src="assets/location.png">Elm St. 14/05 Lost City</a> 
                             <a class="contact-text" href="tel:035283318635"><img class="contact-information_tel" src="assets/phone_mini.png">03528 331 86 35</a> 
                             <a class="contact-text" href="mailto:info@singolo.com"><img class="contact-information_mail" src="assets/mail.png">info@singolo.com</a> 
                      </div>
@@ -194,16 +194,15 @@
     
 </div>
 <footer>
-    <container>            
-        <div class="footer_contacts">
-            <a href="#"><img class="soc_img" src="assets/facebook.png"></a>
-            <a href="#"><img class="soc_img" src="assets/google+.png"></a>
-            <a href="#"><img class="soc_img" src="assets/twitter.png"></a>
-            <a href="#"><img class="soc_img" src="assets/linkedin.png"></a>
-
-        </div>
-        <p class="footer_logo">© Copyright 2013 by PSDchat.com</p>
-    </container>
+      <container>  
+           <p class="footer_logo">ⒸCopyright 2013 · by PSDchat.com</p> 
+             <div class="footer_contacts">
+                <div class="icon_soc"><img src="assets/facebook.png"></div>
+                <div class="icon_soc"><img src="assets/google+.png"></div>
+                <div class="icon_soc"><img src="assets/twitter.png"></div>
+                <div class="icon_soc"><img src="assets/linkedin.png"></div>
+            </div>
+          </container>
         
 </footer>
 </body>
