@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     width: 940px;
     margin: auto;
+ 
 }
 
 
@@ -23,20 +24,24 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #2d303a;
     border-bottom: solid 6px #323746;
     text-transform:uppercase;
+    position: sticky;  
+    float:top;
+    top: 0;
+    z-index: 100;         
     
 }
 
 .header_logo {
     display:flex; 
-    font-family: "Lato-Bold";
+    font-family: "Lato Bold";
      
 }
 
 .logo {
     color: #ffffff;
     font-size: 25px;
-    padding-top: 32px;
-    letter-spacing: -1.5px;
+    padding-top: 29px;
+    letter-spacing: -0.5px;
 }
 
 span {
@@ -47,25 +52,35 @@ span {
 
 .nav {    
     display: flex;
-    width: 370px;    
-    padding-top: 32px;
+    width: 386px;    
+    padding-top: 30px;
     letter-spacing: -0.2px;
     justify-content: space-between;  
-    padding-left: 452px;    
+    padding-left: 445px; 
+      
     
 }
 
-.nav_link {
+.nav a {
     color: #ffffff;
     text-decoration: none;
     font-size: 12px;
            
 }
 
-.nav_link:hover {
-
-    color:#f06c64;
+.nav a.hover {
+    color: #f06c64;
 }
+
+.nav a.active {
+    color: #f06c64;
+    
+}
+
+.nav a:not(.active):hover {
+    color: #f06c64;
+}
+
 
 .span_nav {
     color: #424657;
@@ -73,16 +88,12 @@ span {
     padding-top: 15px;
 }
 
-.active_s1 {
-    color: #f06c64;
-}
-
-
-
 .slider {
     background-color: #f06c64;
     height: 594px;
     border-bottom: solid 6px #ea676b;
+    
+    
 }
 
 
@@ -105,6 +116,7 @@ span {
 	top: 281px;
     left: 2px;
     cursor: pointer;
+    
 }
 
 
@@ -113,11 +125,12 @@ span {
 	top: -918px;
     right: -924px;
     cursor: pointer;
+    
 }
 
 .arrow_right:hover, 
 .arrow_left:hover {
-    background-color:#c5c5c5;
+    opacity: 0.5;
 }
 
 
@@ -125,7 +138,8 @@ span {
     background-color:#f2f2f2 ;
     height: 494px;
     border-bottom: solid 6px #ffffff;
-    color:#666d89;            
+    color:#666d89; 
+              
 }
 
 .section_head {     
@@ -191,10 +205,10 @@ h4 {
 } 
 
 
-body {
+/* body {
     max-width: 1020px;
 
-}
+} */
 
 
 
@@ -256,7 +270,7 @@ body {
     color:#c5c5c5;
 }
 
-.active_nav {
+.li_butt.active {
     font-size: 12px;
     line-height: 8px;
     color: #dedede;
@@ -274,8 +288,15 @@ body {
     padding-top: 19px;
     max-height: 620px;
     overflow: hidden;
+    cursor: pointer;  
+   
     
 }
+
+img.boarder {
+    outline: 5px solid #f06c64;
+    transform: scale(0.95, 0.95);  
+}    
 
 .about_us {
     background-color: #f2f2f2;
@@ -442,6 +463,7 @@ textarea {
 }    
 
 
+
 .form_contact_info {
     margin-top: 8px;
     font-size: 12px;
@@ -504,10 +526,9 @@ textarea {
     
 }
 
-.icon_soc:hover
- {
+.icon_soc:hover {
     cursor: pointer;
-    background-color:#c5c5c5;
+    opacity: 0.5;
 }
 
 footer {

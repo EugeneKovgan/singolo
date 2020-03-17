@@ -8,16 +8,16 @@
     
     </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div  class="container">
             <div class="header_logo">
              <h1 class="logo">singolo<span>*</span></h1>
-                    <nav class="nav">
-                        <a class ="nav_link active_s1" href="#">home<span class="span_nav">.</span></a>
-                        <a class ="nav_link" href="#">service<span class="span_nav">.</span></a>
-                        <a class ="nav_link" href="#">portfolio<span class="span_nav">.</span></a>
-                        <a class ="nav_link" href="#">about<span class="span_nav">.</span></a>
-                        <a class ="nav_link" href="#">contact<span></span></a>
+                    <nav class="nav" id="menu">
+                        <a class ="nav_link" href="#slider">home<span class="span_nav">.</span></a>
+                        <a class ="nav_link" href="#service">service<span class="span_nav">.</span></a>
+                        <a class ="nav_link" href="#portfolio">portfolio<span class="span_nav">.</span></a>
+                        <a class ="nav_link" href="#about">about<span class="span_nav">.</span></a>
+                        <a class ="nav_link" href="#contact">contact<span></span></a>
                         
                     </nav>
             </div>
@@ -25,7 +25,7 @@
             
     </header>
     
- <div class="slider">
+ <div class="slider" id="slider">
         <div class="container">
             
             
@@ -41,7 +41,7 @@
 
 </div>
 
-<section class="section">
+<section class="section" id="service">
         <div class="container">
         <div class="section_head">
             <div class="section-title">Our Services</div>  
@@ -71,21 +71,21 @@
         </div>
     </div>
 </section>
-<div class="portfolio">
+<div class="portfolio" id="portfolio">
     <div class="portfolio_header">
         <div class="logo_singolo2">Portfolio</div><br>
     <div class="logo_inf">Duis mollis, est non commodo luctus, nisi erat porttitor 
     ligula, eget lacinia odio sem nec elit.
     </div>                          
-        <div class="head_nav">
-            <button class="li_butt active_nav">All</button>
+        <div class="head_nav" id="head_nav">
+            <button class="li_butt ">All</button>
             <button class="li_butt">Web Design</button>
             <button class="li_butt">Graphic Design</button>
             <button class="li_butt">Artwork</button>                   
         </div>
         </div>
         <div class="container">
-            <div class="portfolio_img">
+            <div class="portfolio_img" id="portfolio_img">
             <img src="assets/Project_1.png" alt="img_1">
             <img src="assets/Project_2.png" alt="img_2">
             <img src="assets/Project_3.png" alt="img_3">
@@ -97,12 +97,7 @@
             <img src="assets/Project_9.png" alt="img_9">
             <img src="assets/Project_10.png" alt="img_10">
             <img src="assets/Project_11.png" alt="img_11">
-            <img src="assets/Project_12.png" alt="img_12">
-            <img src="assets/Project_9.png" alt="img_9">
-            <img src="assets/Project_10.png" alt="img_10">
-            <img src="assets/Project_11.png" alt="img_11">
-            <img src="assets/Project_12.png" alt="img_12">
-          
+            <img src="assets/Project_12.png" alt="img_12">                    
             
         </div>
     </div>
@@ -111,7 +106,7 @@
 </section>
 
 
-<section class="about_us">
+<section class="about_us" id="about">
            <div class="about_us_description"><div class="about_title">About Us</div>
             <div class="about_info">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
                 Duis mollis, non commodo luctus, nisi erat porttitor ligula,eget lacinia odio sem 
@@ -167,7 +162,7 @@
     </container>
         <container>
 
-        <div class="input_information_form"> 
+        <div class="input_information_form" id="contact"> 
            
             <form class="form" action="form" method="post">
                 <input class="input_information" type="text" name="name" placeholder="Name (Required)" required>
@@ -175,6 +170,14 @@
                 <input class="input_information" type="text" name="subject" placeholder="Subject">
                 <textarea class="input_information" name="message" placeholder="Describe your project in detail..." style="resize: none;" cols="30" rows="13"></textarea>
                 <button class="input_information submit" type="submit" formmethod="POST">Submit</button>
+                <div id="message-block" class="hidden">
+                    <div id="message" class="hidden">
+                        <p>Text:
+                            <span id="result"></span></p><br>
+                        <button id="close_button">ok</button>                       
+                    </div>
+
+                </div>
              </form>
              <div class="form_contact_info">
                  <h5>Contact Information</h5>
@@ -205,5 +208,6 @@
           </container>
         
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
