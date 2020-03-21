@@ -1,18 +1,14 @@
-console.log("hello");
+
 const MENU = document.getElementById("menu");
 const HEAD_NAV = document.getElementById("head_nav");
 const SERVICE = document.getElementById("service");
 const PORTFOLIO = document.getElementById("portfolio");
-
-
-
-
+const LEFT_MOBILE_CONTROL = document.querySelector("#phone_button_vert");
+const RIGHT_MOBILE_CONTROL = document.querySelector("#phone_button_hor");
+const ANCHORS = document.querySelectorAll("a[href*='#']")
 const BUTTON = document.getElementById("button");
-const CLOSE_BUTTON = document.getElementById("close-button");
-const SUBMIT = document.getElementById(".input_information submit");
-
-// const subject = document.getElementById("subject").value.toString();
-
+const CLOSE_BUTTON = document.getElementById("close_button");
+const SUBMIT = document.getElementById("submit");
 
 
 // buttons active
@@ -36,7 +32,7 @@ PORTFOLIO.addEventListener("click", (event) => {
 //nav
 
 
-const ANCHORS = document.querySelectorAll("a[href*='#']")
+
 
 for (let anchor of ANCHORS) {
     anchor.addEventListener("click", event => {
@@ -69,6 +65,7 @@ for (let anchor of ANCHORS) {
 
  
 //scroll
+
 
 
 //slider
@@ -120,10 +117,9 @@ document.querySelector(".arrow_left").addEventListener("click", function() {
     }
 });
 
-//tel_scr
+//tel_screen
 
-const LEFT_MOBILE_CONTROL = document.querySelector("#phone_button_vert");
-const RIGHT_MOBILE_CONTROL = document.querySelector("#phone_button_hor");
+
 
 LEFT_MOBILE_CONTROL.onclick = () => {
   const BLACK_MIRROR = document.querySelector("#tel_vert_off");
@@ -147,3 +143,35 @@ RIGHT_MOBILE_CONTROL.onclick = () => {
 
 
 //form
+
+
+SUBMIT.addEventListener("click", (event) => {
+    let subject = document.getElementById("subject").value.toString();
+    let description = document.getElementById("description").value.toString();
+    if(subject){
+        document.getElementById("message_subject").innerText = "Subject: " + subject;
+    }else{
+        document.getElementById("message_subject").innerText = "Without subject"
+    }
+    if(description){
+        document.getElementById("message_description").innerText = "Description: " + subject;
+    }else{
+        document.getElementById("message_description").innerText = "Without description"
+    }
+    document.getElementById("message_block").classList.remove("hidden");
+});
+
+CLOSE_BUTTON.addEventListener("click", (event) => {
+    document.getElementById("message_subject").innerText = "";
+    document.getElementById("message_description").innerText = "";
+    document.getElementById("message_block").classList.add("hidden");
+   
+    
+});
+
+//stop sending 
+
+
+document.querySelector(".form").addEventListener("click", function(event){
+    event.preventDefault()
+  });

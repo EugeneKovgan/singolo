@@ -590,6 +590,30 @@ textarea {
 
 }    
 
+#message_block{
+    position: absolute;
+    justify-content: center;
+    margin-left: -110px;
+    width: 1200px;
+    height: 900px;       
+    background: #0008;
+}
+  
+#message_block.hidden{
+    display: none;
+}
+  
+#message{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    border: 5px double #2d303a;
+    background-color: seagreen;
+    font-family: Lato Regular;
+    text-align: center;
+    padding: 100px 100px;
+}
+
 .form_contact_info {
     margin-top: 8px;
     font-size: 12px;

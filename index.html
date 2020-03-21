@@ -181,18 +181,23 @@
                 <form class="form" action="form" method="post">
                 <input class="input_information" type="text" name="name" placeholder="Name (Required)" required>
                 <input class="input_information" type="email" name="email" placeholder="Email (Required)" required>
-                <input class="input_information" type="text" name="subject" placeholder="Subject">
-                <textarea class="input_information" name="message" placeholder="Describe your project in detail..." style="resize: none;" cols="30" rows="13"></textarea>
-                <button class="input_information submit" type="submit" formmethod="POST">Submit</button>
-                <div id="message-block" class="hidden">
-                    <div id="message" class="hidden">
-                        <p>Text:
-                            <span id="result"></span></p><br>
-                        <button id="close_button">ok</button>                       
+                <input class="input_information" id="subject" type="text" name="subject" placeholder="Subject">
+                <textarea class="input_information" id="description" name="message" placeholder="Describe your project in detail..." style="resize: none;" cols="30" rows="13"></textarea>
+                <button class="input_information submit" id="submit" type="submit" formmethod="POST">Submit</button>
+            
+                </div>
+                <div id="message_block" class="hidden">
+                    <div id="message">
+                        <p>Письмо отправлено</p>
+                        <p><span id="message_subject"></span></p>
+                        <p><span id="message_description"></span></p>
+                        <button id="close_button">OK</button>
                     </div>
+                   
                 </div>
-                </div>
-             </form>
+
+             
+             
              <div class="form_contact_info">
                  <h5>Contact Information</h5>
                 <p class="form_contact_description">Quisque hendrerit purus dapibus, ornare nibh vitae, viver&shy;ra nibh. Fusce vitae aliquam
