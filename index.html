@@ -13,7 +13,7 @@
             <div class="header_logo">
              <h1 class="logo">singolo<span>*</span></h1>
                     <nav class="nav" id="menu">
-                        <a class ="nav_link" href="#slider">home<span class="span_nav">.</span></a>
+                        <a class ="nav_link active" href="#slider">home<span class="span_nav">.</span></a>
                         <a class ="nav_link" href="#service">service<span class="span_nav">.</span></a>
                         <a class ="nav_link" href="#portfolio">portfolio<span class="span_nav">.</span></a>
                         <a class ="nav_link" href="#about">about<span class="span_nav">.</span></a>
@@ -24,25 +24,39 @@
         </div>
             
     </header>
-    
- <div class="slider" id="slider">
-        <div class="container">
-            
-            
-            <div class="phones">
-                    <img class="arrow_left"src="assets/Left.png" alt="left">
-				    <div ><img class="tel_vert" src="assets/iPhoneVertical.png" alt="iPhone">
-				    <img class="tel_hor"src="assets/iPhoneHorizontal.png" alt="iPhone"></div>
-                    <img class="arrow_right"src="assets/Right.png" alt="right">
-                                    
-            
-            </div>
+   
+ <div class="slider slider_1" id="slider">
+        <div class="container">          
+                        <div class="phones">                    
+				    <div>
+                        <div><img class="tel_vert" src="assets/iPhoneVertical.png" alt="iPhone">
+                        <div class="phone_button" id="phone_button_vert"></div>
+                        <div id="tel_vert_off" class="screen_off"></div>
+                        </div>
+                        <div><img class="tel_hor" src="assets/iPhoneHorizontal.png" alt="iPhone">
+                        <div class="phone_button" id="phone_button_hor"></div>
+                        <div id="tel_hor_off" class="mirror-off"></div>
+                    </div>                      
+                    </div>              
+                                             
+                         </div>              
         </div>
-
+</div>
+<div class="slider slider_2" id="slider">
+    <div class="container">          
+                    <div class="phones">
+                        <div><img class="tel_slider_2" src="assets/slider_2.png" alt="iPhone">                                         
+                </div>                 
+                        </div>  
+                      </div>
+</div>
+<div class="arrow">
+    <img class="arrow_left"src="assets/Left.png" alt="left">
+    <img class="arrow_right"src="assets/Right.png" alt="right">
 </div>
 
-<section class="section" id="service">
-        <div class="container">
+<section class="section">
+        <div class="container" id="service">
         <div class="section_head">
             <div class="section-title">Our Services</div>  
             <div class="section-title_description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat
@@ -72,6 +86,7 @@
     </div>
 </section>
 <div class="portfolio" id="portfolio">
+    <div class="container">
     <div class="portfolio_header">
         <div class="logo_singolo2">Portfolio</div><br>
     <div class="logo_inf">Duis mollis, est non commodo luctus, nisi erat porttitor 
@@ -84,20 +99,21 @@
             <button class="li_butt">Artwork</button>                   
         </div>
         </div>
+    </div>
         <div class="container">
             <div class="portfolio_img" id="portfolio_img">
-            <img src="assets/Project_1.png" alt="img_1">
-            <img src="assets/Project_2.png" alt="img_2">
-            <img src="assets/Project_3.png" alt="img_3">
-            <img src="assets/Project_4.png" alt="img_4">
-            <img src="assets/Project_5.png" alt="img_5">
-            <img src="assets/Project_6.png" alt="img_6">
-            <img src="assets/Project_7.png" alt="img_7">
-            <img src="assets/Project_8.png" alt="img_8">
-            <img src="assets/Project_9.png" alt="img_9">
-            <img src="assets/Project_10.png" alt="img_10">
-            <img src="assets/Project_11.png" alt="img_11">
-            <img src="assets/Project_12.png" alt="img_12">                    
+            <img src="assets/Project_1.png" alt="img_1" id="img_1">
+            <img src="assets/Project_2.png" alt="img_2" id="img_2">
+            <img src="assets/Project_3.png" alt="img_3" id="img_3">
+            <img src="assets/Project_4.png" alt="img_4" id="img_4">
+            <img src="assets/Project_5.png" alt="img_5" id="img_5">
+            <img src="assets/Project_6.png" alt="img_6" id="img_6">
+            <img src="assets/Project_7.png" alt="img_7" id="img_7">
+            <img src="assets/Project_8.png" alt="img_8" id="img_8">
+            <img src="assets/Project_9.png" alt="img_9" id="img_9">
+            <img src="assets/Project_10.png" alt="img_10" id="img_10">
+            <img src="assets/Project_11.png" alt="img_11" id="img_11">
+            <img src="assets/Project_12.png" alt="img_12" id="img_12">                    
             
         </div>
     </div>
@@ -105,13 +121,12 @@
     </div>
 </section>
 
-
 <section class="about_us" id="about">
-           <div class="about_us_description"><div class="about_title">About Us</div>
+           <div class="container"><div class="about_us_description"><div class="about_title">About Us</div>
             <div class="about_info">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
                 Duis mollis, non commodo luctus, nisi erat porttitor ligula,eget lacinia odio sem 
             nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
-            </div></div>
+            </div></div></div>
             <div class="container">
             <div class="about_us_container">
                 <div class="about_us_items"><img class="about_us_img" src="assets/photo_1.png">
@@ -152,19 +167,18 @@
             </div>
 </section> 
 <div class="quote">
-    <container>
+    <div class="container">
         <div class="quote_head"><div class="quote_logo">Get a Quote</div>
         <div class="quote_description">Fusce dapibus, tellus ac cursus commodo,
              tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat
               porttitor <br> ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus
                ac cursus commodo, tortor mauris condimentum nibh.</div>
             </div>
-    </container>
-        <container>
-
-        <div class="input_information_form" id="contact"> 
-           
-            <form class="form" action="form" method="post">
+    </div>
+        <container> 
+            <div class="container">
+        <div class="input_information_form" id="contact">            
+                <form class="form" action="form" method="post">
                 <input class="input_information" type="text" name="name" placeholder="Name (Required)" required>
                 <input class="input_information" type="email" name="email" placeholder="Email (Required)" required>
                 <input class="input_information" type="text" name="subject" placeholder="Subject">
@@ -176,7 +190,7 @@
                             <span id="result"></span></p><br>
                         <button id="close_button">ok</button>                       
                     </div>
-
+                </div>
                 </div>
              </form>
              <div class="form_contact_info">
